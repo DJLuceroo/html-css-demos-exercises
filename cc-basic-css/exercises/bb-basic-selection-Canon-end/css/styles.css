@@ -1,0 +1,34 @@
+body {
+	background-color: #f3fffd;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	color: #3d403f;
+	text-decoration: underline;
+}
+
+section {
+	width: 650px;
+	background-color: #f3fff0;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	/* border: 1px solid black; */
+}
+
+p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+	color: #3d403c;
+}
+
+
+
+
+
+
+

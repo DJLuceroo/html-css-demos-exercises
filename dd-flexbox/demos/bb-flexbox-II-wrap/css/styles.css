@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+main {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div {
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px 0px 0px 10px;
+}
+
+div.red-paint {
+    background-color: red;
+}
+
+div.blue-paint {
+    background-color: blue;
+}
+
+div.yellow-paint {
+    background-color: yellow;
+}
+
+/* Width Math for red and blue boxes on first row
+Total - margin - border - padding = leftover
+960 - (3 * 10) - (4 * 2) - 0
+960 - 30 - 8 = 922
+	922/2 = 461 */
+div.red-paint, 
+div.blue-paint {
+    width: 461px;
+}
+
+/* Width Math for yellow box on second row
+Total - margin - border - padding = leftover
+960 - (2 * 10) - (2 * 2) - 0
+960 - 20 - 4 = 936
+	936/1 = 936 */
+div.yellow-paint {
+    width: 936px;
+    margin-bottom: 10px;
+}
+
